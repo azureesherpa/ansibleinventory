@@ -1,3 +1,4 @@
+
 [DEV_ChildGroupA]
 Server1
 Server2
@@ -24,7 +25,9 @@ DEV_ChildGroupC
 var1=foo.southeast.example.com
 halon_system_timeout=30
 self_destruct_countdown=60
-===========================================================================
+
+#STG Environment 
+
 [STG_ChildGroupA]
 Server1
 Server2
@@ -44,7 +47,9 @@ Server3
 STG_ChildGroupA
 STG_ChildGroupB
 STG_ChildGroupC
-========================================================================
+
+#PROD Environment
+
 [PROD_ChildGroupA]
 Server1
 Server2
@@ -66,7 +71,7 @@ PROD_ChildGroupB
 PROD_ChildGroupC
 
 
-=============================================================================
+#ParentGroup 
 
 [ParentGroup:Children]
 DEV
