@@ -22,13 +22,3 @@ server6.company.com
 server7.company.com
 server8.company.com
 
-
-
-#Alias 
-
-
-web  ansible_host=server1.company.com
-db   ansible_host=server2.company.com
-mail ansible_host=server3.company.com
-web2 ansible_host=server4.company.com
-localhost ansible_connection=localhost 
