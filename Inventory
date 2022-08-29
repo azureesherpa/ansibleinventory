@@ -27,3 +27,11 @@ rtr4
 
 [hosts]
 host1 ansible_host=35.183.15.179 ansible_user=ec2-user private_ip=172.17.182.250
+
+
+
+[CCA_DEV_TCS]
+cca_dev_tcsserver ansible_host=35.182.253.100
+
+[CCA_DEV_CAMPAIGN]
+cca_dev_compaignserver ansible_host=35.182.253.100
