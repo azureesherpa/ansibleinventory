@@ -35,3 +35,7 @@ cca_dev_tcsserver.com
 
 [CCA_DEV_CAMPAIGN]
 cca_dev_compaignserver.com
+
+[CCA_DEV_MANAGEMENT]
+cca_dev_managementserver.com
+
