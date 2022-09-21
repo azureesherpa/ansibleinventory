@@ -33,6 +33,8 @@ host1 ansible_host=35.183.15.179 ansible_user=ec2-user private_ip=172.17.182.250
 [CCA_DEV_TCS]
 cca_dev_tcsserver.com
 
+[CCA_DEV_TCS:vars]
+environment=DEV
 [CCA_DEV_CAMPAIGN]
 cca_dev_compaignserver.com
 
